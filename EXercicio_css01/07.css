@@ -1,0 +1,37 @@
+body{
+    width: 80%;
+    margin: auto;/*Centraliza na horizontal*/
+    font-family: Verdana,Helvetica, sans-serif;
+    color: #444;
+}
+
+h1{
+    color:rgb(72, 3, 136);
+    text-align: center;
+    background-color: rgba(59, 190, 230, 0.692);
+    font-size: 46px;/*Aumenta o tamanho da fonte do texto*/
+}
+
+h2{
+    color: red;
+    background-color: rgba(228, 15, 15, 0.404);
+    font-size: 30px;
+    border-bottom:solid 3px red ;
+    padding: 8px;
+}
+
+ul{
+    padding-left: 0px;
+}
+
+li{
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
