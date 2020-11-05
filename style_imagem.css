@@ -1,0 +1,25 @@
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 900px;
+    margin: auto;
+}
+
+.bg{
+    background-image: url("bg.jpg");
+    background-attachment: fixed;/*A imagem fica fixa*/
+    background-size: cover;/*Ajsuta o tamanho da imagem.... 'contain'sempre faz comq a imagem fique inteira*/
+    background-repeat: repeat;/*A imagem não se duplica, mas pode se definr para ficar duplicada*/
+    background-position: right bottom;/*Ajusta a posição da imagem*/
+}
+
+p{
+    line-height: 1.5;/*Ajusta o espaçamento entre as linhas do paragrafo*/
+}
+
+.img-html{
+    float: left;/*deixa a imagem 'flutuando' ao lado do texto*/
+}
+.img-css{
+    float: right;
+}
