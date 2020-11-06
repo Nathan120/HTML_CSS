@@ -42,7 +42,7 @@ main{
 
 h2{
     background-color: rgb(209, 209, 209);
-    border-bottom:solid 3px rgb(185, 185, 185);
+    border-bottom:solid 3px rgb(185, 185, 185);/*Deixa uma borda fina, na parte de baixo*/
     padding: 3px;
 }
 
