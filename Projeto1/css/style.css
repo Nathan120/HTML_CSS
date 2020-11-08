@@ -46,16 +46,18 @@ h2{
     padding: 3px;
 }
 
-footer{
+.rodape{
+    height: 80px;
+    line-height: 80px;
     margin-top: 15px;
-    width: auto;
-    border-bottom: solid;
-    border-top: solid;
+    
+   
 
     color: white;
     border-color: rgb(54, 54, 54);
     background-color: rgb(54, 54, 54);
 
+    text-shadow: 2px 2px 2px black;
     text-align: center;
     font-size: 12px;
 }
