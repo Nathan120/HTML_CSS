@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     background: #ccc;
     margin: 0;
 }
@@ -12,7 +12,37 @@ body{
     background-size: cover;
 }
 
+.hero nav ul{
+    text-align: right;
+    margin: 0px 20px 0px 0px;
+    padding-top: 10px;
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;/*deixa uma borda completa*/
+    margin-left: 10px;
+}
+
+.hero nav a{
+    color:white;
+    background-color: rgba(47, 41, 41, 0.25);
+
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.hero nav a:hover{
+    background-color: rgba(47, 41, 41, 0.5);
+}
+
 .hero-content{
+
     text-align: center;/*centraliza o texto*/
     color: white;
     margin-top: 50px;
@@ -25,8 +55,11 @@ body{
 }
 
 .hero-content p{
-    margin: 5px 290px;
-    background-color: rgba(47, 41, 41, 0.76);
+    display: inline-block;
+    padding: 15px;
+    border-bottom: solid 1px white;
+    background-color: rgba(47, 41, 41, 0.70);
+
 }
 
 main{
@@ -36,8 +69,32 @@ main{
 
 .content-section{
     background-color: white;
-    padding: 15px;
     margin-top: 15px;
+    padding: 10px;
+
+    overflow: auto;
+}
+
+.card{
+    width: 32%;
+    float: left;
+}
+
+.card p{
+    color:white;
+    background-color: rgb(54, 54, 54);
+    
+    margin: 0;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.card img{
+    width: 100%;
+    display: block;
+}
+.card-1, .card-2{
+    margin-right: 2%;
 }
 
 h2{
@@ -49,9 +106,7 @@ h2{
 .rodape{
     height: 80px;
     line-height: 80px;
-    margin-top: 15px;
-    
-   
+    margin-top: 10px;
 
     color: white;
     border-color: rgb(54, 54, 54);
