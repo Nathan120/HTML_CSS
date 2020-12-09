@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <header>
+        <title>mini_Calculadora</title>
+        <meta charset="utf-8">
+
+        <style>
+            body{
+                background-color: blueviolet;
+                min-width: 50%;
+                min-height: 50%;
+                border: solid 2px red;
+
+                text-align: center;
+
+                margin: 2%;
+                padding: 0;
+            }
+
+            h1{
+                font-family: Helvetica, sans-serif;
+                background-color: aqua;
+                display: inline-block;
+                padding: 30px;
+            }
+
+            button{
+                background-color:rgb(51, 47, 47);
+                color: white;
+                margin: 2px;
+            }
+        </style>
+    </header>
+
+    <body>
+        <div>
+            <h1>Calculadora</h1>
+
+            <br>
+            <p class="primeiro"></p>
+
+            <button onclick="soma()">+</button>
+            <button onclick="subtracao()">-</button>
+            <button onclick="multiplicacao()">*</button>
+            <button onclick="divisao()">/</button>
+
+
+        </div>
+
+        <script>
+            function escreve(n){
+                var output = document.querySelector('.primeiro');
+                output.innerHTML = n;
+            }
+
+            function soma(){
+                // pedir o proximo número
+                n2 = prompt('Digite outro número: ')
+                n2 = parseFloat(n2);
+                escreve(n1+n2);
+            }
+            function subtracao(){
+                // pedir o proximo número
+                n2 = prompt('Digite outro número: ')
+                n2 = parseFloat;
+                escreve(n1-n2);
+            }
+            function multiplicacao(){
+                // pedir o proximo número
+                n2 = prompt('Digite outro número: ')
+                n2 = parseFloat(n2);
+                escreve(n1*n2);
+            }
+            function divisao(){
+                // pedir o proximo número
+                n2 = prompt('Digite outro número: ')
+                n2 = parseFloat(n2);
+                escreve(n1/n2);
+            }
+
+            n1 = prompt('Digite um número: ')
+            n1 = parseFloat(n1);
+            escreve(n1);
+    
+        </script>
+
+    </body>
+</html>

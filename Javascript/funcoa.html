@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <title>Função com java script</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <h1>Logica de progamação com javascript</h1>
+
+        <button onclick="mostraTabuada()">Criar Tabuada</button>
+        <button onclick="limparTabuada()">Limpar Tabuada</button>
+
+        <div id="output"></div>
+
+        <script>
+            function mostraTabuada(){
+                // perguntar o numero 
+                var n = prompt('Digite um numero: ');
+                limparTabuada();
+                // converter o numero
+                n = parseFloat(n)
+
+                //criar uma variavel que servirar de indice
+                var i = 1;
+                //enquanto o indice <=1000
+                    //concatena na varialvel msg
+                while(i <= 1000){
+                    mensagem += n +'x'+ i +'= '+(n*i) +'<br>';
+                    i++;
+                }
+                // mostra mensagem no output
+                output.innerHTML = mensagem;
+            }
+
+            function limparTabuada(){
+                mensagem = '';
+                output.innerHTML = mensagem;
+            }
+
+            var output = document.querySelector('#output')
+            var mensagem = '';
+
+        </script>
+    </body>
+</html>
